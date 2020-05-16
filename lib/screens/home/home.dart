@@ -1,6 +1,7 @@
 // screens/home/home.dart
 
 import 'package:flutter/material.dart';
+import 'package:tourismandco/screens/home/text_section.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -9,7 +10,15 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Hello'),
       ),
-      body: Text(''),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          TextSection(Colors.red),
+          TextSection(Colors.green),
+          TextSection(Colors.blue),
+        ],
+      ),
     );
   }
 }
