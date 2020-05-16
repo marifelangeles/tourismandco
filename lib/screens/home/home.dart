@@ -18,9 +18,9 @@ class Home extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ImageBanner("assets/images/image1.jpeg"),
-          TextSection(Colors.red),
-          TextSection(Colors.green),
-          TextSection(Colors.blue),
+          TextSection("summary", "hello"),
+          TextSection("summary", "hello"),
+          TextSection("summary", "hello"),
         ],
       ),
     );
